@@ -4,7 +4,7 @@
 // @namespace       Mechazawa
 // @description     Acts like FuckAdBlock.js but always says that no adblock was detected.
 // @license         WTFPl
-// @version         5
+// @version         6
 // @include         *
 // @run-at          document-start
 // @updateURL       https://raw.githubusercontent.com/Mechazawa/FuckFuckAdblock/master/FuckFuckAdBlock.user.js
@@ -100,4 +100,6 @@
     Object.defineProperties(window, {fuckAdBlock : { value: fuck, enumerable: true, writable: false }});
     Object.defineProperties(window, {blockAdBlock : { value: fuck, enumerable: true, writable: false }});
     Object.defineProperties(window, {sniffAdBlock : { value: fuck, enumerable: true, writable: false }});
+    Object.defineProperties(window, {duckAdBlock : { value: fuck, enumerable: true, writable: false }}); 
+    Object.defineProperties(window, {FuckFuckFuckAdBlock : { value: fuck, enumerable: true, writable: false }});
 })(window);
